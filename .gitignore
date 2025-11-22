@@ -1,0 +1,44 @@
+# Variables de entorno (contienen claves sensibles)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+chatbot/chatbot_errors.log
+
+# Backups temporales
+temp_backup_*.sql
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Composer
+vendor/
+
+# Node.js (si se agrega después)
+node_modules/
+npm-debug.log*
+
+# Archivos temporales
+*.tmp
+*.temp
+cache/
+
+# Archivos comprimidos y backups manuales
+*.rar
+*.zip
+*.tar.gz
+backup/
+backups/
+
+# Scripts de prueba
+test_*.php
